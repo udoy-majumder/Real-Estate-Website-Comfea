@@ -1,0 +1,96 @@
+@import url("https://fonts.cdnfonts.com/css/satoshi");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: "Satoshi", sans-serif;
+  /* background-color: blueviolet; */
+}
+/* header section start  */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 27px 111px;
+  z-index: 1000;
+  position: absolute;
+}
+
+.about_us {
+  display: flex;
+  list-style: none;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: rgb(250, 247, 247);
+}
+.nav ul li {
+  padding: 4px 12px;
+  display: flex;
+  text-decoration: none;
+}
+
+.contact_btn a {
+  padding: 8px 24px;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  border: none;
+  text-decoration: none;
+}
+
+/* header section end */
+/* hero section start  */
+.hero {
+  
+  height: 100vh;
+  background: url(assinment_1_asset/Hero\ Image.png) no-repeat center center/cover;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.hero_content h1 {
+  font-weight: 400;
+  font-size: 104px;
+  color: white;
+  transform: translate(5%, 200%);
+
+}
+.hero_content h1 span {
+    font-weight: 700;
+}
+.img_gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 4px;
+    /* background: rgba(255, 225, 225, 0.2); */
+    padding: 16px;
+    border-radius: 10px;
+    /* backdrop-filter: blur(10px); */
+    
+
+}
+.gallery-image img {
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    object-fit: cover;
+    /* border: 2px solid white; */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+/* .hero_content .img_gallery {
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -50%);
+} */
+/* hero section start  */

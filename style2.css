@@ -1,0 +1,185 @@
+@import url("https://fonts.cdnfonts.com/css/satoshi");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Satoshi", sans-serif;
+  /* background-color: blueviolet; */
+  margin: 0 auto;
+  max-width: 1440px;
+  
+  overflow-x: hidden;
+}
+main {
+  max-width: 1440px;
+  padding:5rem 5rem;
+}
+nav {
+  width: 1440px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  /* overflow-x: hidden; */
+}
+.nav-item {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+.nav-item li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: color 0.4s ease ;
+
+}
+.nav-item li a:hover{
+    color: rgb(212, 212, 212);
+}
+
+.navbar ul li {
+  padding: 8px 12px;
+}
+.contact-btn a {
+  height: 45px;
+  width: 117px;
+  padding: 10px 18px;
+  border-radius: 12px;
+  color: rgb(10, 10, 10);
+  background-color: white;
+  border: none;
+  text-decoration: none;
+  transition: color 0.4s ease ;
+}
+
+.contact-btn :hover {
+  color: rgb(252, 249, 249);
+  background-color: rgb(12, 12, 12);
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url(./assinment_1_asset/Hero\ Image.png) no-repeat ;
+}
+.hero-content h1 {
+  font-weight: 400;
+  font-size: 104px;
+  color: white;
+  transform: translate(5%, 230%);
+}
+.hero-content h1 span {
+  font-weight: 700;
+}
+.scroll-button  {
+  font-size: 48px;
+  transform: translate(30%, 510%);
+  border-radius: px;
+  color: white;
+  border: 2px solid ;
+  text-decoration: none;
+  animation: bounce 2s infinite;
+
+}
+.scroll-button a {
+  /* text-decoration: none; */
+  transform: translate(30%, 510%);
+
+}
+.img-gallery {
+  /* background: rgba(238, 234, 234, 0.918); */
+   transform: translate(85%, 60%); 
+  
+}
+/* main start */
+
+.success {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  /* padding: 5rem; */
+
+  gap: 8rem;
+  height: 500px;
+  
+}
+.success .h1{
+  width: 573px; 
+  font-size: 32px;
+  line-height: 1.09;
+  opacity: 90%;
+  /* font-weight: 300; */
+}
+.success .p {
+  width: 582px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.55;
+  opacity: 50%;
+}
+.learn-btn {
+  height: 45px;
+  width: 117px;
+  padding: 8px 18px;
+  border-radius: 12px;
+  font-weight: 700;
+  margin-top: 2rem;
+  color: rgb(241, 233, 233);
+  background-color: rgb(0, 0, 0);
+  border: none;
+  text-decoration: none;
+  transition: color 0.4s ease ;
+}
+.learn-btn:hover {
+  color: rgb(8, 8, 8);
+  background-color: rgb(248, 248, 248);
+}
+
+.team{
+  display: flex;
+  justify-content: space-around;
+  /* padding: 80px; */
+  height: 626px;
+}
+.team h2 {
+  font-weight: 400;
+  font-size: 36px;
+}
+.team p {
+  font-size: 1rem;
+  line-height: 1.55;
+  opacity: 70%;
+}
+.team-content-1 {
+  height: 401px;
+  width: 316px;
+}
+.team-content-1 img {
+  width: 316px;
+  height: 290px;
+}
+.team-content-2 {
+  height: 451px;
+  width: 402px;
+}
+.team-content-2 img {
+  width: 402px;
+  height: 340px;
+  margin-top: 165px;
+}
+.team-content-3 {
+  height: 510px;
+  width: 498px;
+
+}
+.team-content-3 img {
+  width: 498px;
+  height: 399px;
+}

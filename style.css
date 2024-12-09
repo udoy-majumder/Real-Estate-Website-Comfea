@@ -1,0 +1,71 @@
+@import url("https://fonts.cdnfonts.com/css/satoshi");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Satoshi", sans-serif;
+  background-color: blueviolet;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+/* header  */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  position: absolute;
+  /* z-index: 1000; */
+  /* position: relative; */
+  /* background: url(assinment_1_asset/Hero\ Image.png) no-repeat center center/cover;*/
+  height: 100px;
+  width: 100%; 
+
+}
+.nav {
+  display: flex;
+  list-style: none;
+}
+.nav li a {
+  text-decoration: none;
+  color: white;
+}
+.navbar ul li {
+  padding: 8px 12px;
+}
+
+.contact-btn a {
+  padding: 8px 24px;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  border: none;
+  text-decoration: none;
+}
+/* hero */
+
+.hero {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background: url(assinment_1_asset/Hero\ Image.png) no-repeat center center/cover;
+    /* position: relative; */
+    height: 100vh;
+    z-index: 100;
+}
+
+.hero_content h1 {
+  font-weight: 400;
+  font-size: 104px;
+  color: white;
+  transform: translate(5%, 100%);
+}
+.hero_content h1 span {
+  font-weight: 700;
+}
+/* position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; */
