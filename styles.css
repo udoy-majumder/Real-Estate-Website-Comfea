@@ -307,11 +307,12 @@ nav {
   color: rgb(8, 8, 8);
   background-color: rgb(255, 255, 255);
 }
+/* faq-section start */
 .faq-section {
   display: flex;
   justify-content: space-between;
   padding-top: 5rem;
-  padding-bottom: 5em;
+  padding-bottom: 5rem;
 }
 .faq-container {
   width: 532px;

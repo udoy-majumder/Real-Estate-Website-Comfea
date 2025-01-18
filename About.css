@@ -1,0 +1,342 @@
+@import url("https://fonts.cdnfonts.com/css/satoshi");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --all-p-tag: #70707b;
+  --h-tag: #18181b;
+  --footer-p-h4-tag: #fcfcfc;
+}
+body {
+  font-family: "Satoshi", sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+main {
+  padding: 5rem;
+}
+.logo {
+  height: 2rem;
+  width: 6.6rem;
+}
+nav {
+  width: 1440px;
+  padding: 0px 80px 0px 80px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-item {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+.nav-item li a {
+  text-decoration: none;
+  color: rgb(12, 12, 12);
+  transition: color 0.4s ease;
+}
+.nav-item li a:hover {
+  color: rgb(212, 212, 212);
+}
+
+.navbar ul li {
+  padding: 8px 12px;
+}
+.contact-btn a {
+  height: 45px;
+  width: 117px;
+  padding: 10px 18px;
+  border-radius: 12px;
+  color: rgb(252, 252, 252);
+  background-color: rgb(12, 12, 12);
+  border: none;
+  text-decoration: none;
+  transition: color 0.4s ease;
+}
+
+.contact-btn :hover {
+  color: rgb(12, 12, 12);
+  background-color: rgb(252, 249, 249);
+}
+/* main section start  */
+
+.hero-container {
+  height: 112px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 58px;
+}
+.hero-contain-h2 {
+  width: 563px;
+}
+.hero-contain-h2 h2 {
+  font-size: 4rem;
+  color: var(--h-tag);
+  font-weight: 400;
+}
+.hero-contain-p {
+  width: 520px;
+}
+.hero-contain-p p {
+  font-size: 1.1rem;
+  line-height: 155%;
+  color: var(--all-p-tag);
+}
+/* statistics-section start  */
+.statistics-section {
+  margin: 3.5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.statistics-section-item h3 {
+  font-size: 4rem;
+  color: var(--h-tag);
+  font-weight: 400;
+}
+.statistics-section-item span {
+  opacity: 50%;
+}
+.statistics-section-item p {
+  font-size: 1.1rem;
+  color: var(--all-p-tag);
+}
+/* section- container start  */
+.section-container-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3rem;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.section-contant h4 {
+  font-size: 3.25rem;
+  font-weight: 400;
+  letter-spacing: 2%;
+  color: var(--h-tag);
+}
+.section-contant p {
+  color: var(--all-p-tag);
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 155%;
+  margin-top: 1.5rem;
+}
+.section-image {
+  width: 646px;
+  height: 770px;
+  border-radius: 12px;
+}
+.section-bank {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+.section-bank h5 {
+  font-size: 2.5rem ;
+  line-height: 120%;
+  font-weight: 500;
+  color: var(--h-tag);
+  margin-bottom: 3rem;
+}
+
+/* testimonials section start  */
+.testimonials-section {
+  padding: 80px 0px 80px 0px;
+  
+}
+.testimonials-header {
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ /* margin-bottom: 3.5rem; */
+ padding-bottom: 3.4rem;
+ border-bottom: 1px solid rgb(243, 241, 241);
+}
+.testimonials-header-h2 h2{
+  font-size: 3.25rem;
+  font-weight: 400;
+  color: var(--h-tag);
+  letter-spacing: -2%;
+}
+.testimonials-header-p p {
+ font-size: 1.1rem;
+ font-weight: 400;
+ line-height: 155%;
+ color: var(--all-p-tag);
+}
+.tastimonial-item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  padding-top: 5rem;
+}
+.tastimonial-title h5 {
+  font-size: 3rem;
+  font-weight: 500;
+  color: var(--h-tag);
+  margin-bottom: 1.5rem;
+}
+.tastimonial-title p {
+  font-size: 2rem;
+  line-height: 167%;
+  font-weight: 500;
+  color: var(--all-p-tag);
+}
+.tastimonial-title h6 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--h-tag);
+}
+.tastimonial-image img {
+  width: 546px;
+
+}
+
+/* faq section startr  */
+.faq-section {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5rem;
+}
+.faq-container {
+  width: 532px;
+}
+.faq-container h2 {
+  color: #18181b;
+  font-size: 52px;
+  letter-spacing: -2;
+  font-weight: 400;
+}
+.faq-container p {
+  color: var(--all-p-tag);
+  letter-spacing: 155%;
+  line-height: 155%;
+}
+.faq-container img {
+  height: 324px;
+  margin-top: 56px;
+}
+.fqa-accordion {
+  width: 692px;
+}
+.fqa-accordion .fqa-question p {
+  color: var(--all-p-tag);
+  letter-spacing: 155%;
+  line-height: 250%;
+  margin-bottom: 2rem;
+}
+.fqa-accordion .fqa-question-main {
+  background-color: #fafafa;
+  border-radius: 8px;
+  padding: 16px;
+}
+.fqa-accordion .fqa-question-main h4 {
+  font-weight: 700;
+  line-height: 200%;
+}
+.fqa-accordion .fqa-question-main p {
+  color: var(--all-p-tag);
+  line-height: 200%;
+}
+/* footer start  */
+footer {
+  padding: 80px 56px;
+  background-color: #18181b;
+  color: var(--footer-p-h4-tag);
+}
+.footer-top {
+  height: 330px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #70707b;
+}
+.footer-details {
+  width: 620px;
+}
+.footer-details h5 {
+  line-height: 120%;
+  font-size: 2rem;
+  color: #fcfcfc;
+  margin-bottom: 2rem;
+  font-weight: normal;
+}
+.contact-info-div {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-info h6 {
+  font-size: 14px;
+  line-height: 155%;
+  font-weight: normal;
+  color: #ffffff;
+  margin-bottom: 12px;
+  opacity: 80%;
+}
+.contact-info p {
+  color: #fcfcfc;
+  font-size: 16px;
+  font-weight: regular;
+}
+.contact-info p a {
+  text-decoration: none;
+  color: var(--footer-p-h4-tag);
+}
+.footer-manu {
+  display: flex;
+  width: 326px;
+  justify-content: space-between;
+}
+.navigation {
+  display: grid;
+  width: 232px;
+  grid-template-columns: 1fr 1fr;
+}
+.navigation h6,
+.follow-us h6 {
+  margin-bottom: 1rem;
+  color: var(--footer-p-h4-tag);
+  font-size: 1rem;
+  line-height: 155%;
+  opacity: 70%;
+  font-weight: normal;
+}
+.last-nav p {
+  font-size: 16px;
+  margin-top: 16px;
+}
+.last-nav a {
+  text-decoration: none;
+  color: #fcfcfc;
+}
+.follow-us p {
+  font-size: 1rem;
+  line-height: 155%;
+  margin-top: 16px;
+}
+.follow-us a {
+  text-decoration: none;
+  color: #fcfcfc;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  align-items: center;
+}
+.copy-right {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+}
+.back-btn {
+  color: var(--footer-p-h4-tag);
+  font-size: 14px;
+  line-height: 155%;
+  font-weight: 500;
+}
