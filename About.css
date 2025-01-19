@@ -68,21 +68,16 @@ nav {
 
 .hero-container {
   height: 112px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin-bottom: 58px;
-}
-.hero-contain-h2 {
-  width: 563px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 197px;
+  align-items: center;
 }
 .hero-contain-h2 h2 {
   font-size: 4rem;
   color: var(--h-tag);
   font-weight: 400;
-}
-.hero-contain-p {
-  width: 520px;
 }
 .hero-contain-p p {
   font-size: 1.1rem;
@@ -139,7 +134,7 @@ nav {
   text-align: center;
 }
 .section-bank h5 {
-  font-size: 2.5rem ;
+  font-size: 2.5rem;
   line-height: 120%;
   font-weight: 500;
   color: var(--h-tag);
@@ -149,26 +144,25 @@ nav {
 /* testimonials section start  */
 .testimonials-section {
   padding: 80px 0px 80px 0px;
-  
 }
 .testimonials-header {
- display: grid;
- grid-template-columns: repeat(2, 1fr);
- /* margin-bottom: 3.5rem; */
- padding-bottom: 3.4rem;
- border-bottom: 1px solid rgb(243, 241, 241);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* margin-bottom: 3.5rem; */
+  padding-bottom: 3.4rem;
+  border-bottom: 1px solid rgb(243, 241, 241);
 }
-.testimonials-header-h2 h2{
+.testimonials-header-h2 h2 {
   font-size: 3.25rem;
   font-weight: 400;
   color: var(--h-tag);
   letter-spacing: -2%;
 }
 .testimonials-header-p p {
- font-size: 1.1rem;
- font-weight: 400;
- line-height: 155%;
- color: var(--all-p-tag);
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 155%;
+  color: var(--all-p-tag);
 }
 .tastimonial-item {
   display: grid;
@@ -195,7 +189,6 @@ nav {
 }
 .tastimonial-image img {
   width: 546px;
-
 }
 
 /* faq section startr  */
